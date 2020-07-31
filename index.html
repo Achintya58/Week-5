@@ -1,107 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>PHYSCI 70: Intro to Digital Fabrication </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <link href="./style.css" rel="stylesheet">
+<html><head>
+<title>Harvard 2020 Digital Fabrication</title>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://www.badlion.net/static/assets/css/global.css" type="text/css">
+<link rel="stylesheet" href="https://www.badlion.net/static/assets/css/nav.css" type="text/css">
+
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
 </head>
 <body>
+<header class="header">
+<section class="upper">
+<div class="wrap">
+<h2 style="color: #F8F8FF;">Week 5</h2>
+    
+<style>
+          
+                }
+            </style>
 
 
-<h1>Week 5</h1>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h3>Networking and Machine Building</h3>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>Huzzah LAN Server and Firebase</h2>
-<h2>                                                                                                                                              </h2>
-<p>During the first part of Week 5, I planned on creating a Networking Circuit using a Lan Server. A LAN server based circuit requires that I connect to only one specific WIFI network, in this case, being my home WiFi.</p>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h5>Here is the Arduino Code I used for the Circuit (That just activate the first 2 LEDs):</h5>
+
+</div>
+</section>
+<section class="lower">
+<div class="wrap">
+<span class="players-online">Networking, Machine Building</span>
+<div class="nav-item-container">
+
+</div>
+
+<a href="https://achintya58.github.io/TestTest/">Home Page</a>
+</div>
+</section>
+</header>
+
+<body style=" background-color: #2F2F39"> 
+
+  <div class="row margin-top-5">
+
+
+
+</div>
+
+<div class="content" style="padding:2px 6px 4px 6px; color: #555555; font-color: #FFDB58; border: #FFDB58 2px solid">
+ <h2><a href="">
+ 
+Huzzah LAN Server and Firebase</a></h2>
+<h2> </h2>
+<a href="">During the first part of Week 5, I planned on creating a Networking Circuit using a Lan Server. A LAN server based circuit requires that I connect to only one specific WIFI network, in this case, being my home WiFi.</a>
+<h2> </h2>
+<a href=""><h5>Here is the Arduino Code I used for the Circuit (That just activate the first 2 LEDs):</h5>
 <img src="./Screenshot%20(196).png" class="img-responsive margin" style="width:50%" alt="Sew">
 <img src="./Screenshot%20(197).png" class="img-responsive margin" style="width:50%" alt="Sew">
 <img src="./Screenshot%20(198).png" class="img-responsive margin" style="width:50%" alt="Sew">
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<p>
+<h2> </h2>
 On the Breadboard, I have a multiple number of circuits. The 1st Breadboard containing the Accelerometer, is connected to a Metro Board. On a 2nd Breadboard (Long Breadboard), I have a Huzzah board connected on it. There are wires that go from the GND of the Huzzah board to the first Button of the Series of Buttons (that are connected to each other). There is a Wire connected to the Last Button on the Series that originates from Pin3 of the MetroBoard. There is another wire that originates from a different Pin (Pin8) that connected to the LongBreadboard in the same row of the wire that connects to a Canon Motor. 
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
+<h2> </h2>
 <h5>Here is the Set of Circuits</h5>
 <img src="./IMG_2117.JPG" class="img-responsive margin" style="width:50%" alt="Sew">
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
+<h2> </h2>
 <h5>This is the LAN page, where I go to Activate the Circuit:</h5>
 <img src="./Screenshot%20(203).png" class="img-responsive margin" style="width:50%" alt="Sew">
-<p>LAN page is accessed through the computer IP Address derived from the Serial Monitor on Arduino</p>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<p>While the Circuits and Wiring are mostly completed, the coding associated with the Circuit System is still a work in progress. As of now, when the On button is initiated on the LAN page, an LED (white) will light up, and a signal will be sent to the first button. When all 4 buttons of the series of buttons are presed, they will send a signal to the Blue LED and light it up, as well as the wire connected to Metro Pin3. As per a completed code with THIS circuit, once the "ON" button on the LAN page is pressed, the MetroBoard will start reading the Accelerometer Breadboard. If the Accelerometer sends certain xyz values, the Metro will then start reading PIN3. If PIN3 shows a HIGH signal, the Metro will then send a signal from pin8 that will activate the Canon Motor.</p>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
+<h6>LAN page is accessed through the computer IP Address derived from the Serial Monitor on Arduino</h6>
+<h2> </h2>
+While the Circuits and Wiring are mostly completed, the coding associated with the Circuit System is still a work in progress. As of now, when the On button is initiated on the LAN page, an LED (white) will light up, and a signal will be sent to the first button. When all 4 buttons of the series of buttons are presed, they will send a signal to the Blue LED and light it up, as well as the wire connected to Metro Pin3. As per a completed code with THIS circuit, once the "ON" button on the LAN page is pressed, the MetroBoard will start reading the Accelerometer Breadboard. If the Accelerometer sends certain xyz values, the Metro will then start reading PIN3. If PIN3 shows a HIGH signal, the Metro will then send a signal from pin8 that will activate the Canon Motor.
+<h2> </h2>
 <h5>Here is the Work in Progress code, that will be used to conduct all of the processes listed above:</h5>
 <img src="./Screenshot%20(199).png" class="img-responsive margin" style="width:50%" alt="Sew">
 <img src="./Screenshot%20(200).png" class="img-responsive margin" style="width:50%" alt="Sew">
 <img src="./Screenshot%20(201).png" class="img-responsive margin" style="width:50%" alt="Sew">
 <img src="./Screenshot%20(202).png" class="img-responsive margin" style="width:50%" alt="Sew">
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-	<h2>Opening and Closing Door</h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<p>During this part of Week 5, we got insight into Serial Parsing and Communication using Integers. Based on the information I learned, I decided to create an opening and closing door, that could possibly be incorporated into my final project.</p>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<h2>                                                                                                                                              </h2>
-<p>I decided to use a Huzzah board (on a Breadboard), and two Canon Motors for this assignment, as well as home materials such as carboard and tape. Both Canon Motors were plugged into their own Microchip, which were then connected to GND and USB (5 voltage supplies) on the Huzzah board. Each of the microchips were also connected to their own unique Pins on the Huzzah board. These 3 parts were placed on the sides and back of a cardboard box that contained a poster paper door. Attached to the canon motors were cardboard wheels that were connected to the door using shoe laces.</p>
+<h2> </h2>
+
+            </a>
+</div>
+<h2> </h2>
+<div class="content" style="padding:2px 6px 4px 6px; color: #555555; font-color: #FFDB58; border: #FFDB58 2px solid">
+<a href=""><h2>Opening and Closing Door</h2>
+<h2> </h2>
+During this part of Week 5, we got insight into Serial Parsing and Communication using Integers. Based on the information I learned, I decided to create an opening and closing door, that could possibly be incorporated into my final project.
+<h2> </h2>
+I decided to use a Huzzah board (on a Breadboard), and two Canon Motors for this assignment, as well as home materials such as carboard and tape. Both Canon Motors were plugged into their own Microchip, which were then connected to GND and USB (5 voltage supplies) on the Huzzah board. Each of the microchips were also connected to their own unique Pins on the Huzzah board. These 3 parts were placed on the sides and back of a cardboard box that contained a poster paper door. Attached to the canon motors were cardboard wheels that were connected to the door using shoe laces.
+<h2> </h2>
 <h6>Here are the top and front angle of the finished assigment, as well as a photo of the Huzzah board Circuit:</h6>
 <img src="./IMG_2142.JPG" class="img-responsive margin" style="width:50%" alt="Sew">
 <img src="./IMG_2141.JPG" class="img-responsive margin" style="width:50%" alt="Sew">
 <img src="./IMG_2140.JPG" class="img-responsive margin" style="width:50%" alt="Sew">
-<h2>                                                                                                                                             </h2>
-<h2>                                                                                                                                             </h2>
-<h2>                                                                                                                                             </h2>
-<h2>                                                                                                                                             </h2>
-<p>As per the code, once the Serial Communication Receiver were to receive three integers, it would turn on a Canon Motor connected to one of the Motors, display a message on the Serial Monitor saying that the door was opened. Then after 5 seconds, the other Canon Motor would turn on, and a message saying the door was closed would appear.</p>
+<h2> </h2>
+As per the code, once the Serial Communication Receiver were to receive three integers, it would turn on a Canon Motor connected to one of the Motors, display a message on the Serial Monitor saying that the door was opened. Then after 5 seconds, the other Canon Motor would turn on, and a message saying the door was closed would appear.
+<h2> </h2>
 <h6>Here is the Arduino Code that would Instruct the process above:</h6>
 <img src="./Screenshot%20(211).png" class="img-responsive margin" style="width:50%" alt="Sew">
 <img src="./Screenshot%20(212).png" class="img-responsive margin" style="width:50%" alt="Sew">
 <img src="./Screenshot%20(213).png" class="img-responsive margin" style="width:50%" alt="Sew">
-<h2>                                                                                                                                             </h2>
-<h2>                                                                                                                                             </h2>
-<h2>                                                                                                                                             </h2>
-<h2>                                                                                                                                             </h2>
-<p>Unfortunately, since my MetroBoard was short Circuited, I couldn't use the 9 Volt adapter to supply 9 Volts to my ciruit, and the maximum I could was 5 volts. Therefore, either of the motors were not able to move the door when the other motor was attached to the door through the laces. Therefore, when running the circuit, I could only run it with either one Motor connected to the Door.</p>
-<h2>                                                                                                                                             </h2>
-<h2>                                                                                                                                             </h2>
-<h2>                                                                                                                                             </h2>
-<h2>                                                                                                                                             </h2>
+<h2> </h2>
+Unfortunately, since my MetroBoard was short Circuited, I couldn't use the 9 Volt adapter to supply 9 Volts to my ciruit, and the maximum I could was 5 volts. Therefore, either of the motors were not able to move the door when the other motor was attached to the door through the laces. Therefore, when running the circuit, I could only run it with either one Motor connected to the Door.
+<h2> </h2>
 <h6>Here is the video of the Door Opening and Closing, and the Serial Monitor Receiving Messages (as per the code):</h6>
 <video style="width:50%" controls>
   <source src="./IMG_2130.MOV" type="video/mp4">
@@ -110,7 +112,61 @@ On the Breadboard, I have a multiple number of circuits. The 1st Breadboard cont
   <source src="./IMG_2154.MOV" type="video/mp4">
 </video>
 <img src="./Screenshot%20(207).png" class="img-responsive margin" style="width:50%" alt="Sew">
+<h2> </h2>
+</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
 
   
+
+    
+  
+
+
+
+  
+
+    
+  
+
+  
+
+
+      
+    
+  
+
+
+
+
+
+  
+
+    
+    
+
+
+  
+
+
 </body>
-</html>
+
+
+</body></html>
